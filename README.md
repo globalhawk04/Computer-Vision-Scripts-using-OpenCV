@@ -35,6 +35,7 @@ Scripts Breakdown
 Here is a detailed description of each script in the repository:
 
 Script Name	Description
+
 pic1.py	Read and Display Video: Opens a video file (hello.wmv), reads it frame-by-frame, converts each frame to grayscale, and displays the result in a window.
 pic2.py	Capture and Save Video: Captures video from a webcam, displays the live feed in grayscale, and simultaneously saves the original color footage to a new video file (output.avi).
 pic3.py	Drawing on Images: Demonstrates how to draw various shapes (lines, rectangles, circles, polygons) and write text on an image using OpenCV's built-in functions.
@@ -57,26 +58,6 @@ NumPy: For numerical operations and array manipulation.
 
 Matplotlib: Used in some scripts for displaying images and plots.
 
-You can install all the required libraries using pip:
-
-code
-Bash
-download
-content_copy
-expand_less
-pip install opencv-python numpy matplotlib
-Usage
-
-Clone the repository:
-
-code
-Bash
-download
-content_copy
-expand_less
-git clone https://github.com/your-username/opencv-computer-vision.git
-cd opencv-computer-vision
-
 Provide Input Files:
 Most scripts require specific image or video files to run. Make sure you have the necessary files in the same directory as the script, or update the file paths within the scripts.
 
@@ -84,13 +65,3 @@ Required files include: hello.wmv, pic1.jpg, 3D-Matplotlib.png, mainlogo.png, bo
 
 Run a script from your terminal:
 Navigate to the repository's directory and run any script using Python.
-
-code
-Bash
-download
-content_copy
-expand_less
-# Example:
-python pic6.py
-
-Press the 'q' key or the ESC key (depending on the script) to close the display window and terminate the script.
